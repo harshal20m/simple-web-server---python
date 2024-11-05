@@ -2,7 +2,7 @@
 
 # Simple Web Server
 
-This project creates a simple web server created by Dev@Harshalmali.online using Python and Flask to simulate task execution, similar to job handling in Jenkins. The server allows you to start, stop, and check the status of tasks.
+This project creates a simple web server created by Harshal Mali using Python and Flask to simulate task execution, similar to job handling in Jenkins. The server allows you to start, stop, and check the status of tasks.
 
 ---
 
