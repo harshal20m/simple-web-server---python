@@ -8,10 +8,6 @@ This project creates a simple web server using Python and Flask to simulate task
 
 ---
 
-![Logo](https://user-images.githubusercontent.com/logo_placeholder.png)
-
----
-
 ## Table of Contents
 
 -   [Features](#features)
@@ -19,8 +15,6 @@ This project creates a simple web server using Python and Flask to simulate task
 -   [Endpoints](#endpoints)
 -   [Example Usage](#example-usage)
 -   [Screenshots](#screenshots)
--   [Contributing](#contributing)
--   [License](#license)
 
 ---
 
@@ -110,7 +104,7 @@ The server will start on `http://localhost:5000`.
     http://localhost:5000/
     ```
 
-    ![Home Page](https://user-images.githubusercontent.com/home_page_placeholder.png)
+    ![Home Page](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20180705.png)
 
 2. **Check Server Status**:
 
@@ -118,7 +112,7 @@ The server will start on `http://localhost:5000`.
     curl http://localhost:5000/status
     ```
 
-    ![Server Status](https://user-images.githubusercontent.com/server_status_placeholder.png)
+    ![Server Status](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20180957.png)
 
 3. **Start a Task** (e.g., `build`):
 
@@ -126,7 +120,7 @@ The server will start on `http://localhost:5000`.
     curl -X POST http://localhost:5000/start_task/build
     ```
 
-    ![Start Task](https://user-images.githubusercontent.com/start_task_placeholder.png)
+    ![Start Task](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20181133.png)
 
 4. **Stop a Task**:
 
@@ -134,13 +128,13 @@ The server will start on `http://localhost:5000`.
     curl -X POST http://localhost:5000/stop_task/build
     ```
 
-    ![Stop Task](https://user-images.githubusercontent.com/stop_task_placeholder.png)
+    ![Stop Task](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20181259.png)
 
 5. **Check Specific Task Status**:
     ```
     curl http://localhost:5000/task_status/build
     ```
-    ![Task Status](https://user-images.githubusercontent.com/task_status_placeholder.png)
+    ![Task Status](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20181333.png)
 
 ---
 
@@ -150,18 +144,18 @@ The server will start on `http://localhost:5000`.
 
 Shows a welcome message when accessing the server root.
 
-![Home Page](https://user-images.githubusercontent.com/home_page_placeholder.png)
+![Home Page](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20180705.png)
 
 ### Server Status
 
 Displays server status and task list.
 
-![Server Status](https://user-images.githubusercontent.com/server_status_placeholder.png)
+![Server Status](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20180957.png)
 
 ### Task Started
 
-Shows a response message after starting a ttask.
+Shows a response message after starting a task.
 
-![Start Task](https://user-images.githubusercontent.com/start_task_placeholder.png)
+![Start Task](https://github.com/harshal20m/simple-web-server---python/blob/main/Screenshot%202024-11-05%20181133.png)
 
 ---
