@@ -1,10 +1,8 @@
-Here's a README file for the **Simple Web Server** project that provides instructions, usage details, and embedded images. In a real scenario, you would add actual images of the running application, but here I'll describe placeholders so you can add them after testing.
-
 ---
 
 # Simple Web Server
 
-This project creates a simple web server using Python and Flask to simulate task execution, similar to job handling in Jenkins. The server allows you to start, stop, and check the status of tasks.
+This project creates a simple web server created by Dev@Harshalmali.online using Python and Flask to simulate task execution, similar to job handling in Jenkins. The server allows you to start, stop, and check the status of tasks.
 
 ---
 
